@@ -1,0 +1,108 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+.navbar{
+    background-color: #6a1b9a;
+}
+.navbar-brand{
+    width: 10%;
+}
+.nav-link{
+    color: white !important;
+    font-weight: bold;
+    font-size: 20px;
+}
+.homepage{
+    background-image: url("https://img.freepik.com/free-photo/top-view-purple-leaves-with-purple-background_23-2149299373.jpg?t=st=1732353497~exp=1732357097~hmac=67e9b64e0fe96df267b009040cc664b1f28b907d609a0630b03dcc2966afcc5f&w=996");
+    width: 100vw;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+}
+.heading{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 2px 2px #391a39;
+}
+.hbtn{
+  background-color: blueviolet;
+  font-weight: bold !important;
+}
+.hbtn:hover{
+    background-color: #3a1f52;
+    font-weight: bold !important;
+  }
+.fa-bars{
+color: white;
+}
+.mainhead{
+    font-size: 50px;
+    font-weight: bold;
+    color: #2d193f;
+    text-shadow: 1px 2px 2px violet;
+}
+.hist{
+    color: #2d193f;
+    text-decoration: underline 5px solid greenyellow;
+}
+.para{
+    color: #6a1b9a;
+    line-height: 30px;
+}
+.card-img-top{
+/* width: 400px;
+height:300px ; */
+aspect-ratio: 3/2;
+width: 100%;
+}
+.card{
+    align-items: center;
+    box-shadow: 1px 3px 3px violet;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+/* payment */
+#basic-addon1{
+    background-color: #6a1b9a;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+#basic-addon1:hover{
+    background-color: white;
+    color: #6a1b9a;
+    font-weight: bold;
+    border: 1px solid violet;
+}
+/* contact */
+.form-label{
+    font-weight: bold;
+    color: #6a1b9a;
+}
+/* footer */
+.footer{
+    background-color: #6a1b9a;
+    color: white;
+}
+.fhead{
+    color: white;
+}
+.fcontent h6{
+color: white;
+text-decoration: underline 2px solid white;
+}
+.fcontent p{
+    color: white;
+}
+.ficons{
+    font-size: 30px;
+    color: white;
+}
+.ficons .ic:hover{
+    color: aquamarine;
+    transform: scale(1.2);
+}
